@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar/Navbar';
+import Sidebar from './components/sidebar/Sidebar';
+import Edit from './components/edit/Edit';
+import { useState } from 'react';
 
 function App() {
+  // Functional State is defined here
+  const [name, setName] = useState('Store Name')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar name={name} />
+      <div className="container">
+        <Sidebar name={name}/>
+        <Edit name={name} setName={setName}/>
+      </div>
+    </>
   );
 }
 
