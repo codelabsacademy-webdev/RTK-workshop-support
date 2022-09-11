@@ -8,7 +8,7 @@ import React from "react";
 import MenuLink from "../menuLink/MenuLink";
 import "./sidebar.css";
 
-export default function Sidebar({ name }) {
+export default function Sidebar() {
   console.log('Sidebar Rendered')
   return (
     <div className="sidebar">
@@ -16,7 +16,7 @@ export default function Sidebar({ name }) {
         <MenuLink icon={<HomeOutlined />} text="Store" />
         <MenuLink icon={<ShoppingBasketOutlined />} text="Products" />
         <MenuLink icon={<Settings />} text="Settings" />
-        <MenuLink name={name} icon={<ExitToAppOutlined />} text="Exit" />
+        <MenuLink icon={<ExitToAppOutlined />} text="Exit" />
       </div>
     </div>
   );

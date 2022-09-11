@@ -1,3 +1,6 @@
 {
-    "profile": { "name": "Store Name", "email": "example@email.com" }
+  "profile": {
+    "name": "CLA 3",
+    "email": "Email"
   }
+}
