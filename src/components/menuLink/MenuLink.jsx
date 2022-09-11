@@ -1,0 +1,12 @@
+import React from "react";
+import "./menulink.css";
+
+export default function MenuLink({ name, icon, text }) {
+  return (
+    <div className="menulink">
+      {icon}
+      <span className="menuLinkText">{text}</span>
+      <span className="menuLinkTextName">{text === "Exit" && `(${name})`}</span>
+    </div>
+  );
+}
