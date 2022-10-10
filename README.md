@@ -1,6 +1,17 @@
-# Code Labs Academy
-## Redux Toolkit workshop code files
-This repository serves as a support for the youtube video on the previous workshop (ReactJS State Management with RTK)
+# Code Labs Academy - Redux Toolkit Workshop
+
+**👨‍💻 This repository serves as a support for the youtube video on the [React Global State - Redux Toolkit](https://www.youtube.com/watch?v=W7mq-k8AC08&t=1641s) Workshop**
+
+## About this workshop
+
+Redux is an official ReactJS tool. We can easily manage the state of our apps in React by creating a global state of our app using Redux. Take a look at how we can manage state throughout our app using the newly created Slice API from the Redux Toolkit.
+
+In this workshop, you will learn how to use Redux. 
+
+Check the official documentation of Redux from [here](https://redux.js.org/).
+
+
+## To note
 
 ### Starter files
 The `main` branch contains the starter files for our little demo
@@ -18,35 +29,8 @@ The `final` branch contains the final files - Start with the starter files and p
 4. json-server
 * `yarn add json-server`
 
-# Getting Started with Create React App
+Make sure not to miss our upcomming workshops. Get your free tickets from Code Labs Academy at [Eventbrite](https://www.eventbrite.co.uk/o/code-labs-academy-40913049543)!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If you find this workshop helpful, please don't hesistate to leave a feedback for us on [Eventbrite](https://www.eventbrite.co.uk/o/code-labs-academy-40913049543).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
+**Happy learning!** 😄
